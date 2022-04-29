@@ -8,7 +8,7 @@ img = cv2.imread("color_image.jpg")
 
 # teach the colours -> take csv file from github and load, add the columns name
 # (https://github.com/codebrainz/color-names/blob/master/output/colors.csv)
-index =["color", "color_name", "hex", "R", "G", "B"]
+index = ["color", "color_name", "hex", "R", "G", "B"]
 csv = pd.read_csv('colors.csv', names=index, header=None)
 
 # global variables
