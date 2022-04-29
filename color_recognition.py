@@ -66,7 +66,7 @@ while 1:
 
 cv2.destroyAllWindows()
 
-# todo Image version
+
 # todo Add Audio
 # todo Video Version
 # todo Final Version
