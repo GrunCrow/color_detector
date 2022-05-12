@@ -25,7 +25,6 @@ while True:
     
     # Creating text string to display( Color name and RGB values )
     text = cr.color_rec + ' R=' + str(cr.r) + ' G=' + str(cr.g) + ' B=' + str(cr.b)
-
     
     # cv2.putText(img,text,start,font(0-7),fontScale,color,thickness,lineType )
     cv2.putText(frame, text, (50, 50), 2, 0.8, (255, 255, 255), 2, cv2.LINE_AA)
